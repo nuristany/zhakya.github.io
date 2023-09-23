@@ -17,13 +17,18 @@ h1 {
     img {
         max-width: 100%; /* Make images responsive on mobile */
         height: auto;
-        display: flex;
+        display: block;
         margin: 0 auto; /* Center-align images horizontally on mobile */
     }
 
     p {
         text-align: center; /* Center-align text on mobile */
     }
+       .image-container table {
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+    }
+
 }
 
 /* CSS for desktop devices */
