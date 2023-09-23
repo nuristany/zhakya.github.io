@@ -19,6 +19,7 @@
     /* Remove any spacing below images */
     margin: 0 auto;
     /* Center-align images horizontally */
+     
   }
 
   h1 {
@@ -30,4 +31,8 @@
 /* Global CSS for h1 on all screen sizes */
 h1 {
   font-size: 50px; /* Font size for h1 on all screen sizes */
+}
+
+.image-container table td {
+  text-align: center;
 }
