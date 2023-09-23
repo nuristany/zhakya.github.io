@@ -22,7 +22,7 @@
   }
 
   h1 {
-    font-size: 10px; /* Font size for h1 on mobile devices */
+    font-size: 50px; /* Font size for h1 on mobile devices */
     text-align: center; /* Center-align h1 on mobile devices */
   }
 }
