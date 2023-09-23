@@ -1,4 +1,45 @@
+/* Common CSS styles for both mobile and desktop */
+h1 {
+    text-align: center;
+}
 
-.image-container table td {
-  text-align: center;
+.image-container {
+    text-align: center;
+    margin: 20px; /* Add spacing around the container */
+}
+
+/* CSS for mobile devices */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px; /* Larger font size for mobile */
+    }
+
+    img {
+        max-width: 100%; /* Make images responsive on mobile */
+        height: auto;
+        display: block;
+        margin: 0 auto; /* Center-align images horizontally on mobile */
+    }
+
+    p {
+        text-align: center; /* Center-align text on mobile */
+    }
+}
+
+/* CSS for desktop devices */
+@media (min-width: 769px) {
+    h1 {
+        font-size: 36px; /* Larger font size for desktop */
+    }
+
+    img {
+        max-width: 100%; /* Make images responsive on desktop */
+        height: auto;
+        display: block;
+        margin: 0 auto; /* Center-align images horizontally on desktop */
+    }
+
+    p {
+        text-align: center; /* Center-align text on desktop */
+    }
 }
