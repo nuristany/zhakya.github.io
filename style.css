@@ -1,0 +1,32 @@
+/* Add CSS styles here */
+
+/* CSS for mobile devices */
+@media (max-width: 768px) {
+  .image-container {
+    text-align: center;
+    /* Center-align images */
+
+    font-size: 10px;
+  }
+
+  .image-container img {
+    max-width: 100%; /* Adjusted to 100% to fit the screen width */
+    /* Ensure images don't exceed the screen width */
+    height: auto;
+    /* Maintain the aspect ratio of images */
+    display: block;
+    /* Remove any spacing below images */
+    margin: 0 auto;
+    /* Center-align images horizontally */
+  }
+
+  h1 {
+    font-size: 10px; /* Font size for h1 on mobile devices */
+    text-align: center; /* Center-align h1 on mobile devices */
+  }
+}
+
+/* Global CSS for h1 on all screen sizes */
+h1 {
+  font-size: 50px; /* Font size for h1 on all screen sizes */
+}
