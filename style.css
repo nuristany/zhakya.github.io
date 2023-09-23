@@ -5,8 +5,9 @@
   .image-container {
     text-align: center;
     /* Center-align images */
-
+  h1 {
     font-size: 50px;
+  }
   }
 
   .image-container img {
