@@ -24,15 +24,22 @@ h1 {
     p {
         text-align: center; /* Center-align text on mobile */
     }
+}
 
-    /* Use flexbox to stack images vertically */
-    .image-container table {
-        display: flex;
-        flex-direction: column; /* Stack items vertically */
+/* CSS for desktop devices */
+@media (min-width: 769px) {
+    h1 {
+        font-size: 36px; /* Larger font size for desktop */
     }
 
-    /* Center-align text in each table cell */
-    .image-container table td {
-        text-align: center;
+    img {
+        max-width: 100%; /* Make images responsive on desktop */
+        height: auto;
+        display: block;
+        margin: 0 auto; /* Center-align images horizontally on desktop */
+    }
+
+    p {
+        text-align: center; /* Center-align text on desktop */
     }
 }
